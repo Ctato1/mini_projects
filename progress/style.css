@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+
+
+ul{
+    display: flex;
+    
+}
+
+.active{
+    background-color: rgb(115, 115, 248)!important;
+    
+}
+
+.all .active{
+    transform: rotate(180deg);
+}
+
+.imgs{
+    transform: translateX(-60px);
+}
+
+.img{
+    width: 250px;
+    height: 450px !important;
+    display: none;
+
+}
+li .active::before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius:20% ;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -20px;
+    left: 8px;
+    background-color: rgb(126, 96, 233);
+}
+.current{
+    display: block;
+}
+
+
+input[type = 'range'] {
+    overflow: hidden;
+    width: 140px; 
+    opacity: .5;
+    background-color: rgb(115, 115, 248);
+  }
+.button{
+    width: 5rem;
+    color: #fff;
+    margin-top: 20px;
+    padding: .4rem .6rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+.all li{
+    position: relative;
+    list-style: none;
+    width: 2rem;
+    padding: .3rem;
+    border-radius: 30%;
+    background-color: rgb(0, 217, 255);
+    margin: 0 50px;
+    z-index: 1;
+    transition: .3s;
+}
+
+.all{
+    position: relative;
+    width: 100%;
+}
+.all input{
+    position: absolute;
+    top: 6px;
+    z-index: 0;
+}
+
+
+
+/* .line{
+    display: block;
+    text-align: center;
+
+    background-color: red;   
+}
+
+.one{
+    position: absolute;
+    left: 0;
+}
+
+.line1{
+    position: absolute;
+    left: 0;
+} */
+
+/* li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0 30px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: .2rem .6rem;
+} */
+
+

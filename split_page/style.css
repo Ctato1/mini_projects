@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    transition: .3s;
+}
+
+.plays {
+    width: 50%;
+    background-image: url('images/ps.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(5, 74, 119, 0.315);
+    background-blend-mode: overlay;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.plays-in{
+    width: 100%;
+    
+    position: absolute;
+    top: 15%;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plays-in h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 20%;
+    padding: .5rem 1rem;
+    transition: .2s ease-in;
+}
+
+.plays .btn:hover{
+    background-color: rgba(5, 73, 119, 0.438);
+}
+.xbox .btn:hover{
+    background-color: rgba(7, 124, 46, 0.473);
+}
+
+
+.xbox {
+    width: 50%;
+    background-image: url('images/series-x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(176, 16, 250, 0.199);
+    background-blend-mode: darken;
+    position: relative;
+    transition: .6s ease-in-out;
+}
+
+
+.xbox:hover{
+    width: 90%;
+}
+.plays:hover{
+    width: 90%;
+}
