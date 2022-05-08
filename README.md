@@ -4,4 +4,4 @@
 
 ###  https://ctato1.github.io/mini_projects/split_page/index.html
 
-###  https://ctato1.github.io/mini_projects/str/index.html
+###  https://ctato1.github.io/mini_projects/starbucks/index.html
