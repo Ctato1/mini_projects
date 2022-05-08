@@ -314,7 +314,9 @@
 }
 
 @media screen and (max-width: 735px){
-
+    *{
+        overflow-y:hidden !important;
+    }
     .first-view-img {
         max-width: 100vw;
         height: 50vh;
