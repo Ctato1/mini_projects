@@ -24,7 +24,7 @@ const main = document.querySelector('main')
 
 
 barI.style.display = 'block'
-barI.style.transform= 'translateX(-800px)'
+barI.style.transform = 'translateX(-800px)'
 // Check item side
 let flag = true
 closeI.style.transition = '1s'
@@ -33,17 +33,16 @@ items.addEventListener('click', () => {
     if (flag) {
         enableScroll()
         barI.style.opacity = '1'
-        barI.style.transform= 'translateX(0px)'
+        barI.style.transform = 'translateX(0px)'
         closeI.style.opacity = '.1'
-        closeI.style.transform= 'translateX(-800px)'
-        ;
+        closeI.style.transform = 'translateX(-800px)';
         // closeI.style.display = 'none';
         flag = false
     } else {
         disableScroll()
         closeI.style.opacity = '1'
-        closeI.style.transform= 'translateX(0px)'
-        barI.style.transform= 'translateX(-800px)'
+        closeI.style.transform = 'translateX(0px)'
+        barI.style.transform = 'translateX(-800px)'
         barI.style.opacity = '.1'
         // barI.style.display = 'none';
         // closeI.style.display = 'block';
