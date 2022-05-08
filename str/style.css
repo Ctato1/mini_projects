@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+.media,
+.items{
+    display: none;
+}
+
+.items #bar{
+    display: none;
+}
+.items #close{
+    display: none;
+}
+
+.main-header {
+    margin: 1px;
+    box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.48);
+    -webkit-box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.48);
+}
+
+header {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header .main-head {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* first half */
+header .first-half {
+    display: flex;
+    align-items: center;
+}
+
+header .first-half ul {
+    display: flex;
+    list-style: none;
+}
+
+header .first-half ul a {
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    color: #1e3932;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .2s;
+}
+
+header .first-half ul a:hover {
+    color: #008248;
+}
+
+/* second half */
+header .second-half {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .second-half a {
+    text-decoration: none;
+    color: #1e3932;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+header .second-half a:hover {
+    color: #008248;
+}
+
+header .second-half button {
+    cursor: pointer;
+    border: 1px solid #1e3932;
+    border-radius: 150px;
+    padding: 6px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+header .second-half button:hover {
+    background-color: #c9c9c9;
+}
+
+header .second-half button {
+    margin: 0 15px;
+}
+
+header .second-half button:last-child {
+    color: #fff;
+    background-color: black;
+
+}
+
+header .second-half button:last-child:hover {
+    background-color: #1e3932;
+}
+
+/* .header-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    background-color: rgb(165, 165, 165);
+} */
+
+/* Main */
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    
+}
+
+/* first */
+
+main .first-view {
+    margin: 30px 0 0 0;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-view-img {
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77814.jpg");
+    height: 100%;
+    width: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-view-text {
+    text-align: center;
+    width: 700px;
+    height: 100%;
+    background-color: #d4e9e2;
+    display: flex;
+    align-items: center;
+}
+
+
+.first-view-text h3 {
+    width: 50%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 45px;
+}
+
+.first-view-text p {
+    width: 65%;
+    margin: auto;
+    padding: 70px 0 50px 0;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 20px;
+}
+
+.first-view-text .join {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    background-color: transparent;
+    transition: .2s;
+    font-family: sans-serif;
+}
+
+.first-view-text .join:hover {
+    background-color: #c2e9dc;
+}
+
+.buy-btn:hover {
+    background-color: #aafbc139 !important;
+}
+
+.view2 .first-view-img {
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77881.jpg");
+    width: 700px;
+}
+
+.view2 .first-view-text {
+    text-align: center;
+    width: 700px;
+    height: 100%;
+    background-color: #1e3932;
+    display: flex;
+    color: #fff;
+}
+
+.values2 {
+    width: 100%;
+}
+
+.values2 p {
+    font-size: 23px;
+}
+
+
+
+
+.view3 .first-view-img {
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77882.jpg");
+    width: 700px;
+}
+
+.view3 .first-view-text {
+    text-align: center;
+    width: 700px;
+    height: 100%;
+    background-color: #1e3932;
+    display: flex;
+    color: #fff;
+}
+
+.values3 {
+    width: 100%;
+}
+
+.values3 p {
+    font-size: 23px;
+}
+
+/* Bonus Part */
+
+.bonus{
+    width: 100%;
+    margin: 30px 0 0 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus-img {
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-75418.jpg");
+    height: 100%;
+    width: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bonus .bonus-texts {
+    text-align: center;
+    width: 700px;
+    height: 100%;
+    background-color: #d4e9e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bonus-texts h3 {
+    width: 50%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    
+    font-size: 25px;
+}
+
+.bonus-texts p {
+    width: 65%;
+    margin: auto;
+    padding: 70px 0 50px 0;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 20px;
+}
+
+.bonus-btn {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    background-color: transparent;
+    transition: .2s;
+    font-family: sans-serif;
+}
+.bonus-btn:hover{
+    background-color: #c2e9dc;
+}
+
+.bonus-img2{
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77928.jpg");
+}
+
+.bonus-img3{
+    background-image: url('https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77883.jpg');
+}
+
+.bonus-img4{
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-77884.jpg");
+}
