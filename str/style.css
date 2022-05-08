@@ -122,7 +122,7 @@ header .second-half button:last-child:hover {
 
 /* Main */
 
-main {
+.main {
     max-width: 1440px;
     margin: auto;
     
@@ -130,7 +130,7 @@ main {
 
 /* first */
 
-main .first-view {
+.main .first-view {
     margin: 30px 0 0 0;
     height: 600px;
     display: flex;
